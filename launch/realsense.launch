@@ -1,0 +1,3 @@
+<launch>
+    <node name="realsense2_camera" pkg="realsense2_camera" type="rs_camera.launch" output="screen"/>
+</launch>

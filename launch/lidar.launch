@@ -1,0 +1,7 @@
+<launch>
+    <node name="rplidarNode" pkg="rplidar_ros" type="rplidarNode" output="screen">
+        <param name="serial_port" value="/dev/ttyUSB0"/>
+        <param name="serial_baudrate" value="115200"/>
+        <param name="frame_id" value="laser_frame"/>
+    </node>
+</launch>

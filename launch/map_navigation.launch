@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find mecanum_bot)/launch/lidar.launch"/>
+    <include file="$(find mecanum_bot)/launch/realsense.launch"/>
+    <node pkg="map_server" type="map_server" name="map_server" args="$(find mecanum_bot)/maps/map.yaml"/>
+    <include file="$(find mecanum_bot)/launch/navigation.launch"/>
+</launch>
