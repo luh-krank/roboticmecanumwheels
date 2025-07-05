@@ -1,0 +1,10 @@
+base_local_planner: "dwa_local_planner/DWAPlannerROS"
+DWAPlannerROS:
+  max_vel_x: 0.3
+  min_vel_x: 0.1
+  max_rotational_vel: 1.0
+  acc_lim_x: 1.0
+  acc_lim_theta: 1.0
+  xy_goal_tolerance: 0.2
+  yaw_goal_tolerance: 0.2
+  latch_xy_goal_tolerance: false
